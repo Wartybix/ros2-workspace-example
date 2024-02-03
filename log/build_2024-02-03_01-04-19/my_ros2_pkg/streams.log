@@ -1,0 +1,41 @@
+[0.263s] Invoking command in '/home/wartybix/Workspaces/ros2_py_ws/src/my_ros2_pkg': PYTHONPATH=/home/wartybix/Workspaces/ros2_py_ws/build/my_ros2_pkg/prefix_override:/home/wartybix/Workspaces/ros2_py_ws/install/my_ros2_pkg/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/my_ros2_pkg build --build-base /home/wartybix/Workspaces/ros2_py_ws/build/my_ros2_pkg/build install --record /home/wartybix/Workspaces/ros2_py_ws/build/my_ros2_pkg/install.log --single-version-externally-managed
+[0.351s] running egg_info
+[0.351s] creating ../../build/my_ros2_pkg/my_ros2_pkg.egg-info
+[0.351s] writing ../../build/my_ros2_pkg/my_ros2_pkg.egg-info/PKG-INFO
+[0.351s] writing dependency_links to ../../build/my_ros2_pkg/my_ros2_pkg.egg-info/dependency_links.txt
+[0.351s] writing entry points to ../../build/my_ros2_pkg/my_ros2_pkg.egg-info/entry_points.txt
+[0.351s] writing requirements to ../../build/my_ros2_pkg/my_ros2_pkg.egg-info/requires.txt
+[0.351s] writing top-level names to ../../build/my_ros2_pkg/my_ros2_pkg.egg-info/top_level.txt
+[0.352s] writing manifest file '../../build/my_ros2_pkg/my_ros2_pkg.egg-info/SOURCES.txt'
+[0.352s] reading manifest file '../../build/my_ros2_pkg/my_ros2_pkg.egg-info/SOURCES.txt'
+[0.352s] writing manifest file '../../build/my_ros2_pkg/my_ros2_pkg.egg-info/SOURCES.txt'
+[0.352s] running build
+[0.353s] running build_py
+[0.353s] creating /home/wartybix/Workspaces/ros2_py_ws/build/my_ros2_pkg/build
+[0.353s] creating /home/wartybix/Workspaces/ros2_py_ws/build/my_ros2_pkg/build/lib
+[0.353s] creating /home/wartybix/Workspaces/ros2_py_ws/build/my_ros2_pkg/build/lib/my_ros2_pkg
+[0.353s] copying my_ros2_pkg/__init__.py -> /home/wartybix/Workspaces/ros2_py_ws/build/my_ros2_pkg/build/lib/my_ros2_pkg
+[0.353s] copying my_ros2_pkg/publisher.py -> /home/wartybix/Workspaces/ros2_py_ws/build/my_ros2_pkg/build/lib/my_ros2_pkg
+[0.353s] copying my_ros2_pkg/subscriber.py -> /home/wartybix/Workspaces/ros2_py_ws/build/my_ros2_pkg/build/lib/my_ros2_pkg
+[0.353s] running install
+[0.353s] running install_lib
+[0.353s] creating /home/wartybix/Workspaces/ros2_py_ws/install/my_ros2_pkg/lib/python3.10/site-packages/my_ros2_pkg
+[0.353s] /usr/lib/python3/dist-packages/setuptools/command/install.py:34: SetuptoolsDeprecationWarning: setup.py install is deprecated. Use build and pip and other standards-based tools.
+[0.353s]   warnings.warn(
+[0.353s] copying /home/wartybix/Workspaces/ros2_py_ws/build/my_ros2_pkg/build/lib/my_ros2_pkg/__init__.py -> /home/wartybix/Workspaces/ros2_py_ws/install/my_ros2_pkg/lib/python3.10/site-packages/my_ros2_pkg
+[0.353s] copying /home/wartybix/Workspaces/ros2_py_ws/build/my_ros2_pkg/build/lib/my_ros2_pkg/publisher.py -> /home/wartybix/Workspaces/ros2_py_ws/install/my_ros2_pkg/lib/python3.10/site-packages/my_ros2_pkg
+[0.353s] copying /home/wartybix/Workspaces/ros2_py_ws/build/my_ros2_pkg/build/lib/my_ros2_pkg/subscriber.py -> /home/wartybix/Workspaces/ros2_py_ws/install/my_ros2_pkg/lib/python3.10/site-packages/my_ros2_pkg
+[0.353s] byte-compiling /home/wartybix/Workspaces/ros2_py_ws/install/my_ros2_pkg/lib/python3.10/site-packages/my_ros2_pkg/__init__.py to __init__.cpython-310.pyc
+[0.353s] byte-compiling /home/wartybix/Workspaces/ros2_py_ws/install/my_ros2_pkg/lib/python3.10/site-packages/my_ros2_pkg/publisher.py to publisher.cpython-310.pyc
+[0.354s] byte-compiling /home/wartybix/Workspaces/ros2_py_ws/install/my_ros2_pkg/lib/python3.10/site-packages/my_ros2_pkg/subscriber.py to subscriber.cpython-310.pyc
+[0.354s] running install_data
+[0.354s] creating /home/wartybix/Workspaces/ros2_py_ws/install/my_ros2_pkg/share/ament_index
+[0.354s] creating /home/wartybix/Workspaces/ros2_py_ws/install/my_ros2_pkg/share/ament_index/resource_index
+[0.354s] creating /home/wartybix/Workspaces/ros2_py_ws/install/my_ros2_pkg/share/ament_index/resource_index/packages
+[0.354s] copying resource/my_ros2_pkg -> /home/wartybix/Workspaces/ros2_py_ws/install/my_ros2_pkg/share/ament_index/resource_index/packages
+[0.354s] copying package.xml -> /home/wartybix/Workspaces/ros2_py_ws/install/my_ros2_pkg/share/my_ros2_pkg
+[0.354s] running install_egg_info
+[0.355s] Copying ../../build/my_ros2_pkg/my_ros2_pkg.egg-info to /home/wartybix/Workspaces/ros2_py_ws/install/my_ros2_pkg/lib/python3.10/site-packages/my_ros2_pkg-0.0.0-py3.10.egg-info
+[0.355s] running install_scripts
+[0.364s] writing list of installed files to '/home/wartybix/Workspaces/ros2_py_ws/build/my_ros2_pkg/install.log'
+[0.373s] Invoked command in '/home/wartybix/Workspaces/ros2_py_ws/src/my_ros2_pkg' returned '0': PYTHONPATH=/home/wartybix/Workspaces/ros2_py_ws/build/my_ros2_pkg/prefix_override:/home/wartybix/Workspaces/ros2_py_ws/install/my_ros2_pkg/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/my_ros2_pkg build --build-base /home/wartybix/Workspaces/ros2_py_ws/build/my_ros2_pkg/build install --record /home/wartybix/Workspaces/ros2_py_ws/build/my_ros2_pkg/install.log --single-version-externally-managed
